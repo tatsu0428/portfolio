@@ -20,6 +20,10 @@ p{
   font-family: 'Open Sans', sans-serif;
 }
 
+td{
+  font-family: 'Open Sans', sans-serif;
+}
+
 body{
   background-color: #fff;
   background-image:
@@ -28,13 +32,23 @@ body{
   background-size: 100% 1.2em;
 }
 
+.photo{
+  margin-left: 10%;
+}
+
 .data{
   padding: 0.5em 1em;
   margin: 2em 0;
+  margin-left: 10%;
+  margin-right: 10%;
   color: #5d627b;
   background: white;
   border-top: solid 5px #5d627b;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.data:hover{
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+	transform: translateY(-0.1875em);
 }
 
 .red{
@@ -47,6 +61,7 @@ body{
   background-size: 100% 30%, 100% 30%, 100% 30%;
   background-repeat: no-repeat;
   padding: .25em;
+  margin-left: 10%;
 }
 .data .blue{
   background-color: transparent;
@@ -72,6 +87,7 @@ body{
   padding: 8px 16px;
   border-radius: 4px;
   transition: .4s;
+  margin-right: 10%;
 }
 .button_language:hover {
   background-color: #3b82c4;
@@ -115,4 +131,16 @@ body{
   background-color: #7acbe1;
   border-color: #7acbe1;
   color: #FFF;
+}
+
+.table{
+  width: 80%;
+}
+
+.td{
+  width: 250px;
+}
+
+.footer{
+  margin-right: 10%;
 }
